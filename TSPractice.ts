@@ -56,7 +56,7 @@ function calcInventoryValue(inventory) : number{
     let LEDValue : number = LED.price * inventory[2].quantity;
     let totalValue = motorValue + sensorValue + LEDValue;
 
-    return totalValue;d
+    return totalValue;
 }
 
 function calcAverageProductPrice(products) : number {
